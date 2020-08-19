@@ -4,29 +4,29 @@ myEvents = [
     name: "New Year",
     date: "Wed Jan 02 2020 00:00:00 GMT-0800 (Pacific Standard Time)",
     type: "event",
+    everyYear: false
+  },
+  {
+    id: "required-id-1",
+    name: "Event 2",
+    date: "Wed Jan 02 2020 00:10:00 GMT-0800 (Pacific Standard Time)",
+    type: "event",
     everyYear: true
   },
-    {
-      id: "required-id-1",
-      name: "Event 2",
-      date: "Wed Jan 02 2020 00:10:00 GMT-0800 (Pacific Standard Time)",
-      type: "event",
-      everyYear: true
-    },
   {
     id: "required-id-2",
     name: "Valentine's Day",
-    badge: "08/14",
-    date: "Fri Feb 14 2020 00:00:00 GMT-0800 (Pacific Standard Time)",
+    badge: "Feb 14",
+    date: "02/14 2020 00:00:00 GMT-0800 (Pacific Standard Time)",
     type: "holiday",
     everyYear: true,
-    color: "tomato"
+    color: "green"
   },
   {
     id: "required-id-3",
     name: "Custom Date",
     badge: "08/03 - 08/05",
-    date: ["August/03/2020", "August/05/2020"],
+    date: ["08/03/2020", "August/05/2020"],
     description: "Hello here",
     type: "event",
   },

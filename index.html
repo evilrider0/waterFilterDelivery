@@ -7,25 +7,26 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/style.css" >
 
     <title>Hello, world!</title>
   </head>
   <body>
-      <div class="container-fluid">
+      <div class="container-fluid warapper">
         <div class="row">
           <div class="col-12 col-md-3"></div>
-          <div class="col-12 col-md-6" style="background:#e6e6e6">
+          <div class="col-12 col-md-6">
             <div class="my-auto login-form align-middle">
               <h2 class="text-center">Welcome</h2>
               <p class="text-center"><b>Please Login</b></p>
-              <form>
+              <form method="get">
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <label for="email">Email Address</label>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="Enter email">
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" class="form-control" id="password" placeholder="Password">
                 </div>
 
                 <button type="submit" class="btn btn-primary btn-block">Login</button>

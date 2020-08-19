@@ -1,0 +1,29 @@
+// Home page style
+.warapper{
+  margin-top: 25vh;
+  h2{
+    color: $white;
+    text-transform: uppercase;
+    font-family: $base_font;
+    font-weight: 700;
+  }
+  p{
+    font-family: $base_font;
+    font-weight: 400;
+    color: $gray;
+  }
+  form{
+    font-family: $base_font;
+    .form-group{
+      label{
+      }
+      .form-control{
+        padding: 15px;
+        // height: 6vh;
+      }
+      .btn-primary{
+        background-color: $base !important;
+      }
+    }
+  }
+}

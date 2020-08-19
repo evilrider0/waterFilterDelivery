@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400&display=swap");
+.warapper {
+  margin-top: 25vh; }
+  .warapper h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700; }
+  .warapper p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #f6f6f6; }
+  .warapper form {
+    font-family: "Montserrat", sans-serif; }
+    .warapper form .form-group .form-control {
+      padding: 15px; }
+    .warapper form .form-group .btn-primary {
+      background-color: #1abc9c !important; }
+
+*, html, body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: linear-gradient(45deg, #6ac1c5, #bda5ff); }
+
+/*# sourceMappingURL=style.css.map */
