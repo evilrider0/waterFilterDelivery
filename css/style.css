@@ -1,21 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400&display=swap");
-.warapper {
+.home {
   margin-top: 25vh; }
-  .warapper h2 {
-    color: #fff;
-    text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700; }
-  .warapper p {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    color: #f6f6f6; }
-  .warapper form {
-    font-family: "Montserrat", sans-serif; }
-    .warapper form .form-group .form-control {
-      padding: 15px; }
-    .warapper form .form-group .btn-primary {
-      background-color: #1abc9c !important; }
+
+.cal {
+  margin-top: 5vh; }
+
+.waraper h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; }
+.waraper p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #f6f6f6; }
+.waraper form {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px; }
+  .waraper form .form-group .form-control {
+    padding: 15px; }
+  .waraper form .form-group .btn-primary {
+    background-color: #1abc9c !important; }
 
 *, html, body {
   margin: 0;

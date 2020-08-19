@@ -1,6 +1,12 @@
 // Home page style
-.warapper{
+.home{
   margin-top: 25vh;
+}
+.cal{
+  margin-top: 5vh;
+
+}
+.waraper{
   h2{
     color: $white;
     text-transform: uppercase;
@@ -14,6 +20,7 @@
   }
   form{
     font-family: $base_font;
+    margin-top: 20px;
     .form-group{
       label{
       }
